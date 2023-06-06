@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5em;
+  color: rgb(0, 0, 0);
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+
+/* TABLE FOR PRODUCTS */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td, th, tr {
+  border: 2px solid #000000;
+  text-align: center;
+  padding: 5px;
+}
+
+td.img {
+  text-align: center;
+  padding: 4px;
+}
+
+/*
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+/* CSS for Contact page -- Form */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 19px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+#Home {background-color: rgb(100, 200, 100);}
+#Home {background-image: url(th.jpg);}
+#Home {background-repeat: no-repeat;}
+#Home {background-position: center top;}
+
+#About {background-color: rgb(238, 152, 130);}
+#About {background-image: url(gadgets.jpg);}
+#About{background-repeat: no-repeat;}
+#About{background-position: center top;}
+#About{background-size: 1500px 1000px;}
+
+
+#Products {background-color: Brown(69, 87, 229);}
+#Products {background-image: url(image.jpg);}
+#Products {background-repeat: repeat;}
+#Contact {background-color: burlywood;}
+#Gallery {background-color: rgb(204, 116, 226);}
+
+
+</style>
+
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'black')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('About', this, 'black')" >About</button>
+<button class="tablink" onclick="openPage('Products', this, 'black')">Products</button>
+<button class="tablink" onclick="openPage('Contact', this, 'black')">Contact</button>
+<button class="tablink" onclick="openPage('Gallery', this, 'black')">Gallery</button>
+
+<div id="Home" class="tabcontent">
+ 
+
+ 
+  <!-- home -->
+
+  <h1 align = "center">Krishia Jane's Flower Shop</h1>
+  <img src="C:\Users\krishia jane\Documents\webpage2\flowers shop.jpg">
+<form  style =" background-color: #391f18;  padding: 10px; "> 
+  <h4 align = "center">
+    Welcome to krishia Flowershop. You are freely to browse and shop here. 
+
+    <br>
+    <br>
+
+    
+  </h4>
+</form>
+
+</div>
+
+<div id="About" class="tabcontent">
+  <h2 align = "center">About</h2>
+  
+  <p>Flowers are an important means of attracting pollen substances to plants, and plants need to produce seeds, the reproductive structures that allow seeds to exist for generations. Flowers can also protect growing seeds and successfully pass genetic material to the next generation.
+    Flowers carry a lot of importance in our lives. In India, no worship of God is complete without some kind of flower. Devotees make a garland of flowers to dedicate it to God. In addition, we also use flowers for special occasions like weddings.
+   
+    <br>
+    
+  </div>
+
+<div id="Products" class="tabcontent">
+  <form style =" background-color: #0d299c;  padding: 10px;"
+ > 
+    
+      <h2 align ="center"> Description </h2>
+
+        <table>
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Product Description</th>
+          </tr>
+
+          <tr>
+            <td>Hand-tied bouquets</td>
+            <td> ₱300.00</td>
+            <td text-align = "left"> For customers who prefer to use their own vases, Red White & Bloom will offer hand-tied bouquets.<br>
+              
+          </tr>
+
+          <tr>
+            <td>Variety of prices.</td>
+            <td> ₱250.00</td>
+            <td>Red White & Bloom will offer a variety of arrangement sizes, and will always create a unique arrangement to meet anyone’s stated budget. <br>
+            
+          </tr> 
+
+          <tr>
+            <td>Green and Flowering House Plants</td>
+            <td> ₱1,000.00</td>
+            <td> Red White & Bloom may occasionally offer a selection of seasonal green and flowering house plants.
+              <br>
+          </tr> 
+
+          <tr>
+            <td>Gourmet Chocolates</td>
+            <td> ₱500.00</td>
+            <td>With consumer’s heightened awareness of chocolate brands and a seeming willingness to pay for a better product, Red White & Bloom will carry several lines of exclusive gourmet chocolate bars, that is, the brands will not be sold by other metro Atlanta retailers.  <br>
+          </tr> 
+
+          
+
+
+        </table>
+  </form>
+</div>
+
+<div id="Contact" class="tabcontent">
+  
+
+  <h2 align = "center"> LOGIN FIRST</h2>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="male">Female</option>
+      <option value="female">Male</option>
+      
+    </select>
+
+   <!-- <input type="submit" value="LOGIN"> -->
+    <button onclick="myFunction()">LOGIN</button>
+  </form>
+
+</div>
+
+<div id="Gallery" class="tabcontent">
+  <h3>Gallery</h3>
+  <p>Fresh and Fast Flower Delivery!!!</p>
+
+  <hr>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\krishia jane\Documents\webpage2\kweb\Gourmet Chocolates.jpg ">
+        <img src="vvvv.jpg" alt="Flowershop" width="400" height="400">
+      </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\krishia jane\Documents\webpage2\kweb\Variety of prices.jpg">
+        <img src="th.jpg" alt="Flowershop" width="400" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\krishia jane\Documents\webpage2\kweb\Variety of prices.jpg ">
+        <img src="efe0240371e13329cd72bf647dc27a75 - Copy.jpg" alt="Flowershop" width="400" height="400">
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\krishia jane\Documents\webpage2\kweb\Hand-tied Bouquets.webp">
+        <img src="C:\Users\krishia jane\Documents\webpage2\kweb\Green and Flowering House Plants.jpg alt="Flowershop width="400" height="400">
+      </a>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+// function submit 
+
+function myFunction() {
+  window.alert("Thank you for Submitting your Feedback");
+  document.getElementById("demo").innerHTML = txt;
+}
+
+</script>
+   
+</body>
+</html>

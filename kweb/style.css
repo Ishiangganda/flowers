@@ -1,0 +1,70 @@
+/* CSS styles for the web page */
+body {
+    font-family: Century;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+ul li.active a {
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: #eee;
+}
+
+header {
+    background-color: #c5454552;
+    color: #111111;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.Flower Image {
+    max-height: 20px;
+    position: absolute;
+    float: center;
+    bottom: 0;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+.section p {
+    line-height: 1.5;
+}
